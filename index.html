@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Game</title>
+    <link rel="icon" href="favicon.icon" type="image/x-icon">
+
+    <style>
+        body{
+            /* background : linear-gradient(25deg,rgb(189, 205, 218),rgb(202, 245, 202),rgb(228, 228, 253)); */
+            background: url('layer-1.png') no-repeat center/cover;
+            width :100wh;
+            height: 100vh;
+            overflow: hidden;
+        }
+        canvas{
+            /* background-color: aqua; */
+            width :100%;
+            height :100%;
+            position: absolute;
+            top:0;
+            left:0;
+            max-width: 100vw;
+            max-height:100vh;
+        }
+        #collision{
+            /* background-color: brown;
+             */
+             opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="collision"></canvas>
+    <canvas id="canvas5"></canvas>
+    <script  src="script.js"></script>
+</body>
+</html>
